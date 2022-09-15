@@ -1,0 +1,81 @@
+@import "variables";
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,700;1,200;1,300&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+body{
+    background-color: $colorsecundario;
+    font-family: 'Mulish', sans-serif;
+}
+nav {
+    color: $colorprincipal;
+    background-color: rgb(252, 235, 235);
+        font-size: $tam-fuente2;
+        font-weight: bold;
+        margin-top: 20px;
+    img {
+        width: 60px;
+  height: 60px;
+    }
+    .navbar-nav {
+        display: block;
+        margin-left: 100px;
+        a {
+        color: $colorprincipal;
+        justify-content: space-evenly;
+        align-content: center;
+        }
+    }
+    .btn-primary {
+        background-color: $colorprincipal;
+        color: $colorsecundario;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+        margin-right: $margen;
+    }
+}
+
+section {
+    font-family: 'Mulish', sans-serif;
+    color: $colorprincipal;
+    img {
+        width: 600px;
+    height: 520px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+    .imgDiseñador{
+        width: 300px;
+    height: 300px;
+    margin-top: 120px;
+    margin-left: 100px;
+    }
+    .sobreMi{
+        margin-top: 130px;
+
+        iconify-icon{
+            margin-left: 450px;
+        }
+    }
+    h1{
+        font-size: $tam-fuente;
+        font-weight: bold;
+    }
+    h6{
+        font-size: $tam-fuente2;
+        font-weight: bold;
+    }
+    p{
+        font-size: $tam-fuente2;
+    }
+    .textoPresentacion{
+        margin-top: 250px;
+    }
+}
+
+footer{
+    justify-content: space-evenly;
+    margin-left: 550px;
+    iconify-icon {
+        margin-left:40px;
+        margin-bottom: 40px;
+    }
+}
