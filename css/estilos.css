@@ -1,64 +1,86 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,700;1,200;1,300&family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
-
 body {
   background-color: #fcebeb;
   font-family: 'Mulish', sans-serif; }
-
-nav {
-  display: flex;
-  color: #164581;
-  background-color: #fcebeb;
-  font-size: 1rem;
-  font-weight: bold;
-  margin-top: 20px; }
-  nav img {
-    width: 60px;
-    height: 60px; }
-  nav .navbar-nav {
-    margin-left: 100px; }
-    nav .navbar-nav a {
-      color: #164581;
-      justify-content: space-evenly;
-      align-content: center; }
-  nav .btn-primary {
-    background-color: #164581;
-    color: #fcebeb;
-    font-family: 'Mulish', sans-serif;
+  body nav {
     font-weight: bold;
-    margin-right: 20px; }
+    background-color: #fcebeb; }
+    body nav .navbar-toggler {
+      margin-right: 20px; }
+    body nav .navbar-collapse {
+      margin-left: 20px; }
+    body nav img {
+      width: 60px;
+      height: 60px; }
+  body section {
+    font-family: 'Mulish', sans-serif;
+    color: #164581;
+    /*SobreMi*/
+    /*Formulario*/ }
+    body section img {
+      width: 100%;
+      max-width: 70%;
+      height: auto;
+      margin-top: 40px;
+      margin-bottom: 40px; }
+    body section .imgDiseñador {
+      width: 100%;
+      max-width: 80%;
+      height: auto;
+      margin-top: 90px;
+      margin-left: 10px; }
+    body section .sobreMi {
+      margin-top: 90px;
+      margin-right: 200px; }
+      body section .sobreMi iconify-icon {
+        margin-left: 400px; }
+    body section form {
+      margin-left: 20px;
+      margin-right: 20px; }
+    body section .formulario {
+      margin-left: 20px; }
+    body section h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #db8b8b;
+      text-shadow: 1px 1px #be7979; }
+    body section h2 {
+      font-size: 2rem; }
+    body section h6 {
+      font-size: 1rem;
+      font-weight: bold; }
+    body section p {
+      font-size: 1rem; }
+    body section .presentacion {
+      margin-top: 50px; }
+  body footer {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    justify-content: space-evenly; }
+    body footer iconify-icon {
+      margin-left: 20px;
+      margin-right: 20px; }
 
-section {
-  font-family: 'Mulish', sans-serif;
-  color: #164581; }
-  section img {
-    width: 600px;
-    height: 520px;
-    margin-top: 40px;
-    margin-bottom: 40px; }
-  section .imgDiseñador {
-    width: 300px;
-    height: 300px;
-    margin-top: 120px;
-    margin-left: 100px; }
-  section .sobreMi {
-    margin-top: 130px; }
-    section .sobreMi iconify-icon {
-      margin-left: 450px; }
-  section h1 {
-    font-size: 2rem;
-    font-weight: bold; }
-  section h6 {
+/*Portfolio*/
+.card-body {
+  background-color: #fcebeb; }
+  .card-body p {
     font-size: 1rem;
-    font-weight: bold; }
-  section p {
-    font-size: 1rem; }
-  section .textoPresentacion {
-    margin-top: 250px; }
+    color: #164581; }
+  .card-body h5 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #db8b8b;
+    text-shadow: 1px 1px #be7979; }
 
-footer {
-  justify-content: space-evenly;
-  margin-left: 550px; }
-  footer iconify-icon {
-    margin-left: 40px;
-    margin-bottom: 40px; }
+/*Skills*/
+.col-4 {
+  margin-top: 40px;
+  margin-bottom: 20px; }
+  .col-4 h2 {
+    font-weight: bold;
+    color: #db8b8b;
+    text-shadow: 1px 1px #be7979; }
+  .col-4 h5 {
+    font-weight: bold; }

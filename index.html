@@ -19,50 +19,67 @@ type="image/x-icon"
 -
 />
 <link rel="stylesheet" href="/css/estilos.css">
+<link rel="stylesheet" media="screen and (max-width: 768px)" href="mediaqueries.css" />
 </head>
 <body>
-
-<nav class="navbar navbar-expand-lg">
-<img class="ms-3" src="/img/Asset 10.png" alt="">
-
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-      <a class="nav-link" href="/html/sobremi.html">Sobre mi</a>
-      <a class="nav-link" href="#">Skills</a>
-      <a class="nav-link" href="#">Portfolio</a>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img class="ms-3" src="/img/Asset 10.png" alt="">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/html/sobremi.html">Sobre mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/html/skills.html">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/html/portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/html/conectar.html">Conectar</a>
+        </li>
+      </ul>
     </div>
-  </div>
-  <button type="button" class="btn btn-primary">Contactar</button>
-</nav>
-
-<section class="welcome">
-<div class="container">
-  <div class="row">
-    <div class="col" data-aos="flip-left"
-    data-aos-easing="ease-out-cubic"
-    data-aos-duration="2000">
-      <img class="imgYo" src="/img/yoViajeRemoved cut design.png" alt="">
-    </div>
-
-    <div class="col presentacion" data-aos="fade-down-right">
-        <div class="textoPresentacion">
-      <h1>Daniela Sosa Benintende</h1>
-      <h6>Diseñadora UXUI</h6>
-      <h6>"La iteración es parte de la vida"</h6>
+  </nav>
+</header>
+  <section class="welcome">
+    <div class="container">
+      <div class="row">
+        <div class="col" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
+          <img class="imgYo" src="/img/woman.png" alt="">
         </div>
-    </div>         
+        <div class="col presentacion" data-aos="fade-down-right">
+          <h1>Hello!</h1>
+          <h2>Soy Daniela S. Benintende</h2>
+          <h6>Diseñadora UXUI</h6>
+          <h6>"La iteración es parte de la vida"</h6>
+          <p>Van a poder encontrar mis proyectos, las habilidades que me permiten desempeñarme como 
+            diseñadora y además un poco de mi trayectoria en mi primera profesión como profesora, y 
+            también mi cambio en el camino.</p>
+          </div>  
+        </div>
+        <footer>
+          <div class="conteiner">
+        <iconify-icon class="icon twitter" icon="akar-icons:twitter-fill" style="color: #1da1f2;" width="30" height="30"></iconify-icon>
+        <iconify-icon class="icon linkedin" icon="akar-icons:linkedin-box-fill" style="color: #0e76a8;" width="30" height="30"></iconify-icon>
+        <iconify-icon class="icon facebook" icon="akar-icons:facebook-fill" style="color: #4267b2;" width="30" height="30"></iconify-icon>
+        <iconify-icon class="icon wsp" icon="logos:whatsapp-icon" style="color: #4267b2;" width="30" height="30"></iconify-icon>         
+      </footer>  
+    </div>  
     </div>
-    </div>
-  </div>
-</section>
-<footer>
-    <iconify-icon class="icon twitter" icon="akar-icons:twitter-fill" style="color: #1da1f2;" width="30" height="30"></iconify-icon>
-    <iconify-icon class="icon linkedin" icon="akar-icons:linkedin-box-fill" style="color: #0e76a8;" width="30" height="30"></iconify-icon>
-    <iconify-icon class="icon facebook" icon="akar-icons:facebook-fill" style="color: #4267b2;" width="30" height="30"</iconify-icon>
-    <iconify-icon class="icon wsp" icon="logos:whatsapp-icon" style="color: #4267b2;" width="30" height="30"></iconify-icon>
-</footer>
-
+        </div>
+      </div>
+    </section>
 <!-- JavaScript Bundle with Popper -->
 <script
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
@@ -75,4 +92,7 @@ crossorigin="anonymous"
 AOS.init();
 </script>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>
